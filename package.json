@@ -1,0 +1,33 @@
+{
+  "name": "dsk",
+  "version": "1.0.0",
+  "description": "Show free disk space without df noise",
+  "license": "MIT",
+  "author": "Utpal Singh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utpalsinghdev/dsk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utpalsinghdev/dsk/issues"
+  },
+  "homepage": "https://github.com/utpalsinghdev/dsk#readme",
+  "type": "module",
+  "bin": {
+    "dsk": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
